@@ -1,0 +1,12 @@
+export enum AppActionTypes {
+  FETCH_REQUESTER = "FETCH_REQUESTER",
+}
+
+export enum AuthActionTypes {
+  CHECK_AUTH = "CHECK_AUTH",
+  LOGIN = "LOGIN",
+  REFRESH = "REFRESH",
+  LOGOUT = "LOGOUT",
+  GOOGLE_LOGIN = "GOOGLE_LOGIN",
+  SECURITY_CLAIMS = "SECURITY_CLAIMS",
+}
